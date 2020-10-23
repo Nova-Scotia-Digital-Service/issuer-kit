@@ -8,13 +8,14 @@
     },
     "themes": {
       "light": {
-        "primary": "#234075",
+        "primary": "#0058a4",
         "secondary": "#e3a82b",
         "accent": "#82B1FF",
         "error": "#FF5252",
         "info": "#2196F3",
         "success": "#4CAF50",
-        "warning": "#FFC107"
+        "warning": "#FFC107",
+        "btnSuccess": "#408334"
       }
     }
   }

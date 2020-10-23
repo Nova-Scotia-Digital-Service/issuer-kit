@@ -1,4 +1,8 @@
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.btnText {
+  color: #eee;
+}
+</style>
 
 <template>
   <v-container fluid>
@@ -21,8 +25,9 @@
         <v-row class="mx-4" justify="end">
           <v-col cols="12" md="2">
             <v-btn
-              outlined
-              color="success"
+              raised
+              color="btnSuccess"
+              class="btnText"
               :disabled="!confirmed"
               :to="{ path: 'credential-data' }"
               >Agree</v-btn

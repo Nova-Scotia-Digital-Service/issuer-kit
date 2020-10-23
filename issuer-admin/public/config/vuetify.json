@@ -7,8 +7,8 @@
       "customProperties": true
     },
     "themes": {
-      "light": {
-        "primary": "#234075",
+      "light": {       
+        "primary": "#0058a4",
         "secondary": "#e3a82b",
         "accent": "#82B1FF",
         "error": "#FF5252",

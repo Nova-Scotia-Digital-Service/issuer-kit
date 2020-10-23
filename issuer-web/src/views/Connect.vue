@@ -39,9 +39,7 @@
       <v-container fluid>
         <v-row align="center" justify="space-between" class="mr-2">
           <v-col cols="6" md="2">
-            <v-btn outlined color="error" :to="{ path: 'confirm-data' }"
-              >Back</v-btn
-            >
+            <a outlined color="error" href="{ path: 'confirm-data' }">Back</a>
           </v-col>
           <v-col cols="6" md="2"> </v-col>
         </v-row>

@@ -1,26 +1,25 @@
 <style lang="scss">
-.v-toolbar__content {
-  border-bottom: 2px solid var(--v-secondary-base);
-}
+// .v-toolbar__content {
+//   border-bottom: 2px solid var(--v-secondary-base);
+// }
 
 .issuer-logo {
   height: 50px;
-  width: 50px;
+  width: 100px;
 }
 </style>
 
 <template>
-  <v-app-bar app color="primary" dark>
+  <v-app-bar app color="primary" dense flat dark>
     <div class="d-flex align-center">
       <v-img
         alt="Issuer Logo"
         class="shrink mr-2 issuer-logo"
         contain
-        src="logo.svg"
-        transition="scale-transition"
+        src="https://novascotia.ca/clf/ignition/img/nsvip-en-white-flag.svg"
       />
+      <!-- <h1>{{ issuerName }}</h1> -->
 
-      <h1>{{ issuerName }}</h1>
     </div>
 
     <v-spacer></v-spacer>

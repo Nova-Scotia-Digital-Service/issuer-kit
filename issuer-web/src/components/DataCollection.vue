@@ -10,9 +10,32 @@
   border: none !important;
 }
 
-.sv_main .sv_container .sv_body .sv_nav .sv_complete_btn {
-  background-color: var(--v-success-base);
+// CNS style
+.sv_complete_btn {
+  padding: 10px !important;
+  font-size: 17.5px !important;
+  line-height: 1.5 !important;
+  border-radius: 6px !important;
+  text-decoration: none !important;
+  margin: 54px auto !important;
 }
+
+.sv_q_title {
+  font-family: "open_sansregular", Helvetica,Arial,Tahoma,sans-serif !important;
+  margin-bottom: 5px !important;
+  font-weight: 400 !important;
+  line-height: 1.25 !important;
+  font-size: 16px !important;
+}
+
+.sv_main .sv_container .sv_body .sv_nav .sv_complete_btn {
+ // background-color: var(--v-success-base);
+  background-color: #408334;
+  font-weight: 400 !important;
+  line-height: 1.25 !important;
+  font-size: 16px !important;
+}
+//End of CNS style
 </style>
 
 <template>

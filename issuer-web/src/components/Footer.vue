@@ -1,7 +1,7 @@
 <style scoped lang="scss"></style>
 
 <template>
-  <v-footer padless>
+  <v-footer padless color="primary" dense flat dark>
     <v-col class="text-center" cols="12">
       {{ new Date().getFullYear() }} — <strong>{{ issuerName }}</strong>
     </v-col>

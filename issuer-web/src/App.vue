@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <Header />
-
+    <Header />    
     <v-main>
+      <h1>Issuer Name</h1>
       <router-view></router-view>
     </v-main>
 
@@ -27,9 +27,14 @@
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #408334;
     }
   }
+}
+
+//CNS style
+.underLineLink {
+  text-decoration: underline;
 }
 </style>
 

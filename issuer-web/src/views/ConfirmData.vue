@@ -1,8 +1,11 @@
 <style scoped lang="scss">
-.claim-name {
-  font-style: italic;
+// .claim-name {
+//   font-style: italic;
+// }
+//CNS style
+.btnText {
+  color: #eeeeee;
 }
-
 .claim-value {
   font-weight: bold;
 }
@@ -20,7 +23,7 @@
               <v-list-item-title>
                 <v-row align="center" justify="space-around">
                   <v-col cols="4">
-                    <span class="mx-3 claim-name">{{ item.name }}</span>
+                    <v-text class="mx-3 claim-name">{{ item.name }}</v-text>
                   </v-col>
                   <v-col cols="2">
                     <v-icon small class="mx-3">fas fa-arrow-right</v-icon>
@@ -50,14 +53,13 @@
         </v-row>
         <v-row align="center" justify="space-between" class="mr-2">
           <v-col cols="6" md="2">
-            <v-btn outlined color="error" :to="{ path: 'credential-data' }"
-              >Back</v-btn
-            >
+            <a color="error" href="{ path: 'credential-data' }" class="underLineLink">Back</a>
           </v-col>
           <v-col cols="6" md="2">
             <v-btn
-              outlined
-              color="success"
+              raised large          
+              color="btnSuccess"
+              class="btnText"
               :disabled="!confirmed"
               :to="{ path: 'connect' }"
               >Proceed</v-btn
